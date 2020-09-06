@@ -379,6 +379,9 @@ font-family: Roboto, sans-serif;
     padding-right: 15px;    
     margin-left: auto;
     margin-right: auto;
+    
+}
+.footer-class {
     display: flex;
 }
 .container {
@@ -467,7 +470,7 @@ a {
 }
 .social-link {
     display: flex;
-    margin: 0;
+    
     justify-content: center;
     align-items: center;
     border-radius: 50%; 
@@ -476,9 +479,7 @@ a {
     background-color: #fff;
 }   
 
-.flexbox {
-    display: flex;
-}
+
 .clients {
     margin-top: 0;
     margin-bottom: 0;
@@ -492,7 +493,7 @@ a {
 }
 .section-clients{
     padding-top: 94px;
-    padding-bottom: 234px;
+    padding-bottom: 94px;
 }
 
 .clients-list {
@@ -615,6 +616,7 @@ margin-left: 70px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
 }
 .footer-icon {
     width: 20px;
