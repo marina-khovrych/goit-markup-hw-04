@@ -341,21 +341,16 @@ font-family: Roboto, sans-serif;
     height: 600px;
     margin-right: auto;
     margin-left: auto;
-   
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
-    background-image: url("../images/hero.jpg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
-    padding-top: 200px;
-    padding-bottom: 200px;
-   
-    text-align: center;
-    
-    background-image: #C4C4C4; 
-    color: var(--primary-white-color);
-    letter-spacing: 0.06em;
+    background-color: #963232;
 }
 
 .footer {
@@ -532,30 +527,30 @@ a {
     align-items: center;
     box-sizing: border-box;
 }
-.logo-link:hover {
+.logo-link:hover  {
     border: 1px solid #2196F3;
 }
 .partner-list:hover {
     color: #2196F3;
 }
 
-.logo-one:hover {
+.logo-link:hover .logo-one {
     fill: #2196F3;
 }
 
-.logo-two:hover {
+.logo-link:hover .logo-two {
     fill: #2196F3;
 }
-.logo-three:hover {
+.logo-link:hover .logo-three {
     fill: #2196F3;
 }
-.logo-four:hover {
+.logo-link:hover .logo-four {
     fill: #2196F3;
 }
-.logo-five:hover {
+.logo-link:hover .logo-five {
     fill: #2196F3;
 }
-.logo-six:hover {
+.logo-link:hover .logo-six {
     fill: #2196F3;
 }
 .logo-one {
@@ -588,12 +583,12 @@ a {
     height: 45px;
     fill: #AFB1B8
 }
-.icon:hover {
-   
-    fill: #fff;
-}
+
 .social-link:hover {
     background-color: #2196F3;
+}
+.social-link:hover .icon {
+    fill: #fff;
 }
 .footer-box {
 
