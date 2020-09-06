@@ -488,13 +488,7 @@ a {
     padding-top: 94px;
     padding-bottom: 234px;
 }
-.container-clients{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;    
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .clients-list {
     margin-top: 50px;
     box-sizing: border-box;
