@@ -46,6 +46,17 @@ font-family: Roboto, sans-serif;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.feauture-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -155,40 +166,16 @@ font-family: Roboto, sans-serif;
 .item {
     margin-right: 50px;
 }
-.title .item::before {
-    display: block;
-    content: "";
-    height: 120px;  
-    background-image: url("../images/antenna1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-    
-
-}
 
 
-.title .item:nth-child(1)::before {
-    background-image: url("../images/antenna.svg");
-}
-.title .item:nth-child(2)::before {
-    background-image: url("../images/vector1.svg");
-}
-.title .item:nth-child(3)::before {
-    background-image: url("../images/diagram.svg");
-}
-.title .item:nth-child(4)::before {
-    background-image: url("../images/astronaut.svg");
-}
+
 .info {
     display: flex;
-    margin-left: auto;
+    margin-left: 280px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    scroll-padding-right: 15px;
+    
+    
+ 
   
 }
 .info .item {
@@ -594,5 +581,46 @@ a {
     fill: #fff;
 }
 .social-list:hover {
+    background-color: #2196F3;
+}
+.footer-box {
+display: inline-block;
+margin-top: 12px;
+margin-left: 70px;
+}
+.footer-text {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer-icon-list {
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+    display: flex;
+}
+.footer-icon-item:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.footer-icon-link:hover {
     background-color: #2196F3;
 }
