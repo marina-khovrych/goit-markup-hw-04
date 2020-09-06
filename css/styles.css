@@ -379,6 +379,7 @@ font-family: Roboto, sans-serif;
     padding-right: 15px;    
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 .container {
     margin-top: 0;
@@ -433,9 +434,14 @@ a {
     margin-bottom: 0;
     padding-inline-start: 0;
 }
-.footer .footer-socials {
+.footer  {
     display: flex;
     align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .list-social {
     align-items: center;
@@ -578,7 +584,7 @@ a {
     background-color: #2196F3;
 }
 .footer-box {
-display: inline-block;
+
 margin-top: 12px;
 margin-left: 70px;
 }
